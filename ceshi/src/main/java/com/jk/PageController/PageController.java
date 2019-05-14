@@ -11,6 +11,9 @@ public class PageController {
 
     @RequestMapping("tomain")
     public String tomian(){
+
+        System.out.println(111);
+
         return "main";
     }
 
